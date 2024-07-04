@@ -839,7 +839,7 @@ ol {
 
 .gallery-single-text ul {
 	list-style: none;
-	margin-bottom: 50px;
+	margin-bottom: 25px; /* 50px; */
 }
 
 .gallery-single-text ul li {
@@ -1574,6 +1574,7 @@ ol {
 .property-sublist {
     list-style-type: none; /* Elimina los puntos de la sublista */
     padding: 0;
+	/*
     margin: 0 0 0 180px !important; /* Alinea la sublista con las categorías */
 }
 
