@@ -86,12 +86,12 @@
 						<div class="contact-text">
 							<span>&iexcl;Hola! &iquest;Quieres recibir m&aacute;s informaci&oacute;n sobre el apartamento?</span>
 							<h2>No dudes en preguntar...</h2>
-							<form class="contact-form">
-								<input type="text" placeholder="Tu nombre">
-								<input type="text" placeholder="To e-mail">
-								<input type="text" placeholder="Asunto">
-								<textarea placeholder="Mensaje"></textarea>
-								<button class="site-btn">Enviar</button>
+							<form class="contact-form" action="send-email.php" method="post">
+								<input type="text" id="name" name="name" required placeholder="Tu nombre">
+								<input type="text" id="email" name="email" required placeholder="Tu e-mail">
+								<input type="text" id="subject" name="subject" required placeholder="Asunto">
+								<textarea id="message" name="message" required placeholder="Mensaje"></textarea>
+								<button class="site-btn" type="submit">Enviar</button>
 							</form>
 							<div class="contac-info">
 								<p>615 51 64 77</p>
