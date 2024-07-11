@@ -798,11 +798,23 @@ ol {
 	display: -webkit-box;
 	display: -ms-flexbox;
 	display: flex;
+	/*
 	position: absolute;
 	right: -111px;
 	bottom: 0;
 	z-index: 11;
 	width: 222px;
+	*/
+	position: relative;
+	left: 0;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+	width: 100%;
+	margin-top: -44px;	
 }
 
 .gallery-single-slider .owl-nav button.owl-next,
@@ -817,7 +829,8 @@ ol {
 }
 
 .gallery-single-text {
-	padding: 75px 70px 0 80px;
+	/*padding: 75px 70px 0 80px; */
+	padding: 0 30px;
 }
 
 .gallery-single-text span {
