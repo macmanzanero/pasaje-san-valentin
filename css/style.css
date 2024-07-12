@@ -1595,3 +1595,18 @@ ol {
     margin-bottom: 1px !important; /* Espacio entre propiedades */
     /*padding: 8px;*/
 }
+
+/* Iconos de Real State */
+.icons-row {
+    display: flex;
+    align-items: center;
+	margin-bottom: 30px;
+}
+.icon-text {
+    display: flex;
+    align-items: center;
+    margin-right: 20px; /* Espacio entre cada icono-texto */
+}
+.icon-text i {
+    margin-right: 8px;
+}
